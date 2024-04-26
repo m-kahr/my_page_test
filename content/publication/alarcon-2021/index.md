@@ -17,6 +17,5 @@ date: '2021-01-01'
 publishDate: '2024-04-26T12:09:56.753183Z'
 publication_types:
 - chapter
-publication: '* Jahrbuch der Logistikforschung: Innovative Anwendungen, Konzepte &
-  Technologien*'
+publication: '*Jahrbuch der Logistikforschung: Innovative Anwendungen, Konzepte & Technologien*'
 ---
