@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Michael Kahr
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+#name_pronunciation: Michael Kahr
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Michael 
+last_name: Kahr
 
 # Status emoji
 status:
@@ -17,34 +17,40 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: University Assistant (PostDoc)
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Graz
+    url: https://www.uni-graz.at/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Mixed-Integer (Non-)Linear Optimization
+  - Data-driven Large-Scale Network Optimization
+  - Machine Learning
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Operations Research
+      institution: University of Vienna, Austria
+      year: 2021
+    - course: MSc in Business Education
+      institution: Vienna University of Business and Economics, Austria
+      year: 2018
+    - course: MSc in Business Administration
+      institution: University of Vienna, Austria
+      year: 2016
+    - course: BSc in International Business Administration
+      institution: University of Vienna, Austria
+      year: 2014
+    - course: Ing in Electronics
+      institution: Federal Ministry of Economic, Family, and Youth Affairs
+      year: 2011
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -85,6 +91,7 @@ skills:
         percent: 80
         icon: camera-retro
         icon_pack: fas
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
