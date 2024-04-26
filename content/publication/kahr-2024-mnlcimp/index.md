@@ -19,9 +19,7 @@ publication_types: ["article-journal"]
 
 
 # links:
-# - name: ""
-#   url: ""
-url_pdf: https://optimization-online.org/2022/01/8777/
+url_pdf: 'https://optimization-online.org/2022/01/8777/'
 url_code: 'https://github.com/m-kahr/mnlcimp'
 url_dataset: 'https://github.com/m-kahr/mnlcimp'
 ---
