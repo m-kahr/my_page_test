@@ -62,27 +62,55 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: University assistant (post doc)
+          company: Institute of Operations and Information Systems
+          company_url: 'https://operations.uni-graz.at/'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: University of Graz, Austria
+          date_start: '2023-05-01'
           date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+#          description: |2-
+#              Responsibilities include:
+#
+#              * Analysing
+#              * Modelling
+#              * Deploying
+        - title: Research associate (post doc)
+          company: Institute of Production and Logistics Management
+          company_url: 'https://www.jku.at/en/institute-of-production-and-logistics-management/'
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Johannes Kepler University, Linz, Austria
+          date_start: '2022-09-15'
+          date_end: '2023-04-30'
+          description: 'FWF project (P 35160-N): Preventing epidemics in networks using integer programming.' 
+        - title: Research associate (prae/post doc)
+          company: Research Network Data Science
+          company_url: 'https://datascience.univie.ac.at/'
+          company_logo: org-x
+          location: University of Vienna, Austria
+          date_start: '2020-11-01'
+          date_end: '2022-04-30'
+          description: 'FWF project (P 34151-N): Logistics decision support in the pandemic crisis.'
+        - title: Research Scholar
+          #company: Research Network Data Science
+          #company_url: 'https://datascience.univie.ac.at/'
+          #company_logo: org-x
+          #location: University of Vienna, Austria
+          date_start: '2019-11-01'
+          date_end: '2021-10-31'
+          description: 'Research visits at the: 
+
+            * Department of Operations Analytics at the School of Business and Economics, Vrije Universiteit Amsterdam, The Netherlands 
+  
+            * Department of Information Systems, Decision Sciences and Statistics, ESSEC Business School, Paris, France'
+        - title: Research associate
+          company: Department of Statistics and Operations Research
+          company_url: 'https://isor.univie.ac.at/'
+          company_logo: org-x
+          location: University of Vienna, Austria
+          date_start: '2016-05-02'
+          date_end: '2019-10-31'
+          description: 'WWTF project (ICT15-014): Optimization and analysis of large-scale networks.'
     design:
       columns: '2'
   - block: accomplishments
@@ -234,50 +262,49 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      #text: |-
+      #  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: michael.kahr@uni-graz.at
+      phone: +43 (0)316 380-XXXX
+      #appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        street: Universitätsstraße 15
+        city: Graz
+        region: Styria
+        postcode: '8010'
+        country: Austria
+        country_code: Aut
+      directions: RESOWI Building, E3, Room 015E030066
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        - 'Tuesday 13:00 to 14:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+        latitude: '47.07856074114705'
+        longitude: '15.451080982322848'  
+#      contact_links:
+#        - icon: twitter
+#          icon_pack: fab
+#          name: DM Me
+#          link: 'https://twitter.com/Twitter'
+#        - icon: skype
+#          icon_pack: fab
+#          name: Skype Me
+#          link: 'skype:echo123?call'
+#        - icon: video
+#          icon_pack: fas
+#          name: Zoom Me
+#          link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+#      form:
+#        provider: netlify
+#        formspree:
+#          id:
+#        netlify:
+#          # Enable CAPTCHA challenge to reduce spam?
+#          captcha: false
     design:
       columns: '2'
 ---
