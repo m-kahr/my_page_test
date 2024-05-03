@@ -4,7 +4,7 @@ title: 'Layout and location planning for automatic locker box systems under stoc
 event: Operations Research, Bern, Switzerland, Aug 31 - Sep 3, 2021
 event_url: https://www.or2021.unibe.ch/
 
-location: Online
+location: Operations Research, Bern, Switzerland, Online
   #street: 450 Serra Mall
   #city: Espoo
   #region: CA

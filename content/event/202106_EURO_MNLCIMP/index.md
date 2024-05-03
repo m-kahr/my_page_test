@@ -4,7 +4,7 @@ title: 'Multinomial logit models for (competitive) influence maximization in soc
 event: 31th European Conference on Operational Research, Athens, Greece, July 11-14, 2021
 event_url: https://euro2021.euro-online.org/index.html
 
-location: Online
+location: University Of West Attica, Greece, Online
   #street: 450 Serra Mall
   #city: Espoo
   #region: CA
