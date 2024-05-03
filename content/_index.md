@@ -162,7 +162,7 @@ sections:
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 3
       # Filter on criteria
       filters:
         folders:
@@ -235,6 +235,8 @@ sections:
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
         {{% /callout %}}
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 3
       filters:
         folders:
           - publication
@@ -246,9 +248,12 @@ sections:
     id: talks
     content:
       title: Recent & Upcoming Talks
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 3
       filters:
         folders:
           - event
+        #featured_only: true
     design:
       columns: '2'
       view: compact
